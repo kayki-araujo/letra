@@ -1,0 +1,60 @@
+:root {
+  --size: clamp(75px, 50vw, 150px);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  margin-bottom: calc(50vh - 10px - var(--size) / 2)
+}
+
+.win {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://media1.giphy.com/media/fxwpwPOhNknT2/giphy.gif?cid=790b7611149fa0f03a0ca7edfa966262214df2204edd35f8&rid=giphy.gif&ct=s);
+}
+
+.lose {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://www.clipartmax.com/png/full/64-647127_smiley-lol-emoticon-laughter-clip-art-laughing-emoji.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;a
+}
+
+#cont {
+  margin: auto;
+  
+  border: 1px black solid;
+  width: var(--size);
+  
+  padding: 10px;
+}
+
+.item {
+  display: grid;
+  background-color: gray;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 5px;
+  margin-bottom: 10px;
+ }
+
+.item:last-child {
+  margin-bottom: 0px;
+ }
+
+.lucky {
+  background-color: green;
+  
+}
+
+.text{
+  margin: auto;
+  color: white;
+  font-family: 'sans';
+  font-size: calc(var(--size) * 0.5)
+}
