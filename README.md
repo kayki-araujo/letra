@@ -1,2 +1,2 @@
 # letra
-(https://kayki-araujo.github.io/letra/)[site]
+[Aqui](https://kayki-araujo.github.io/letra/ "Aqui")
